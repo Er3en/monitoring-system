@@ -1,7 +1,7 @@
 global:
-  scrape_interval: 15s  # Częstotliwość zbierania metryk
+  scrape_interval: 15s
 
 scrape_configs:
-  - job_name: 'system-monitor'  # Nazwa joba
+  - job_name: 'system-monitor'
     static_configs:
-      - targets: ['log-monitor:8080']  # Adres agenta, który uruchomiłeś
+      - targets: ['log-monitor:8080']
